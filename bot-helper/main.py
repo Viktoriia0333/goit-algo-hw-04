@@ -27,7 +27,7 @@ def main():
                     print(add_contact(*args))
                 case 'change':
                     print(charge_contact(*args))
-                case 'show':
+                case 'phone':
                     print(show_phone(*args))
                 case 'all':
                     print(show_all_contacts())
