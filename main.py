@@ -1,7 +1,7 @@
 from first_task import salary_calculations
 from second_task import cats_handler
-from third_task import directory_structure
 from pathlib import Path
+from directory import output_directory_insides
 
 
 def main():
@@ -18,4 +18,4 @@ def main():
 
 
 if __name__ == '__main__':
-    print(directory_structure.output_directory_insides())
+    print(output_directory_insides())
